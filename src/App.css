@@ -1,10 +1,54 @@
 .App {
-  text-align: center;
+  text-align: top;
+}
+
+.img_css {
+  border-radius: 8px;
+  max-width: auto;
+  max-height: 100%;
+}
+
+.button_css {
+  background-color: rgba(210, 27, 27, 0.803); /* Green */
+  border: none;
+  color: rgba(242, 226, 226, 0.982);
+  padding: 4px, 8px;
+  display: inline-block;
+  border-radius: 15px;
+  outline: none;
+  font-size: 16px;
+}
+.titleHeader {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  font-size: xx-large;
+  padding-bottom: auto;
+  margin-top: auto;
+  color: rgb(176, 168, 168);
+}
+
+.body_css {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  color: rgba(152, 157, 162, 0.755);
+}
+
+.background_css {
+  background-attachment: fixed;
+  background-color: rgba(23, 22, 22, 0.982);
+}
+
+.titleBar {
+  background-color: #000100b6;
+  display: block;
+  font-family: "Lucida Sans";
+  color: #f03636c9;
+  padding-left: 16px;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +58,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #020202;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
